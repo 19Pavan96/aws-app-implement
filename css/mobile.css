@@ -1,0 +1,55 @@
+@media screen and (max-width:768px)
+{
+   .section-4 .row .card1{
+      height: 350px;
+      width: 46em;
+      margin-left: 12px;
+
+   }
+    .section-5
+    {
+      margin: 0 3vmin;
+    }
+   .section-5 .row .icons{
+      width: 23%;
+      margin-right: 2px;
+   }
+
+   .section-6 .row .card{
+    margin-bottom: 2em;      
+   }
+}
+@media  screen and (max-width:425px)
+{
+   .section-4 .row .card1{
+    height: 404px;
+    width: 32em;
+    margin-left: 0;
+}
+
+.section-4 .row .card{
+   height: 300px;
+   width: 35em;
+   margin: 3vmin 0;
+}
+
+.section-5{
+   margin-left: 3vmin;
+   
+}
+.section-5 .row .icons{
+  width: 90%;
+   
+}
+
+.section-6 .row .card{
+   margin: 4vmin 0vmin;
+}
+
+.section2 .row .column{
+  
+float: left;
+height: 80px;
+}
+}
+

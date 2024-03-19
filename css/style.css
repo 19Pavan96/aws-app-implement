@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header,main{
+    overflow-x: hidden;
+    
+}
+
+header .navbar-brand{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 2em;
+}
+
+header .nav-item{
+        margin: 0 1.5em;
+        font-weight: bold;
+
+}
+
+
+ .nav-link:hover{
+    color: green;
+}
+
+header .btn{
+    border-radius: 30px;
+}
+
+.section-1
+{
+    background-image: url(../css/img/header.jpg);
+    background-attachment: fixed;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0.2em;
+}
+
+.section-1 .cover .content
+{
+    position: relative;
+    top: 10em;
+    left: 3em;
+    color: white;
+}
+
+.section-1 .cover .content h1{
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 0.9em;
+}
+
+.section-1 .cover .content p{
+    font-size: 2em;
+   
+}
+
+.section-1 .cover .content .btn{
+    border-radius: 20px;
+    padding: 0.5em 2em;
+}
+
+.section-2{
+   margin-top: 3.5em;
+}
+
+.section-2 li{
+    padding: 8px;
+}
+
+.section-3
+{
+    background-color: rgb(238, 234, 234);
+    margin: 3em 0px;
+    height: 250px;
+}
+
+.section-3  .number h1{
+    margin-top: 6vmin;
+    color: rgb(2, 92, 2);
+}
+.section-4 .card1
+{
+   margin-left: 10em;
+   margin-right: 10px;
+    height: 500px;
+    width: 18em;
+    padding-top: 3em;
+    color: white;
+    background-color: rgb(135, 197, 135);
+    
+}
+
+.section-4 .card1 h3
+{    
+    font-weight: 700;
+    font-size: 38px;
+    padding-left: 10px;
+}
+
+.section-4 .card1 p
+{
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.section-4 .card1 .btn{
+    border-radius: 20px;
+    background-color: rgb(195, 245, 197);
+    color: rgb(83, 216, 165);
+    margin-left: 55px;
+}
+
+.section-4 .card1 .btn:hover{
+    background-color: white;
+    color: green;
+}
+
+
+
+.section-4 .card{
+    height: 400px;
+    width: 14em;
+    padding-top: 40px;
+    margin:40px 10px;
+}
+
+.section-4 .card i{
+    color: green;
+}
+
+.section-4 .card h3{
+    padding: 25px 0px;
+    font-weight: 500;
+   
+}
+
+.section-4 .card p{
+   
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.section-5{
+    margin: 4em 6em;
+}
+
+
+.section-5 .row .icons{
+    border: 0.2px solid rgb(150, 148, 148);
+   margin: 1vmin;
+    width: 20%;
+    padding-right: 1vmin;
+    
+}
+
+
+
+.section-5 .row .icons:hover{
+    border-color: green;
+}
+
+.section-5 .row .icons a{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: black;
+    
+}
+
+.section-5 .row .icons h5{
+    font-size: small;
+    width: 100px;
+}
+.section-5 .row .icons a:hover{
+    
+     color: green;
+}
+
+.section-6
+{}
+
+.section-6 .text h3{
+    color: rgb(80, 79, 79);
+    margin-top: 3em;
+}
+
+.section-6 .text h1{
+    margin-bottom: 1em;
+}
+
+.section-6 .row .card .title{
+    background-color: rgb(41, 228, 41);
+    padding: 1vmin 2vmin;
+}
+
+
+
+.section-6 .row .card a{
+    font-weight: bold;
+    font-size: 3vmin;
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin-top: -16px;
+    padding-left: 1em;
+}
+
+.section-6 .row .card a:hover{
+    color: rgb(6, 92, 6);
+}
+
+.section-6 .row .card .trainer{
+    padding-left: 2vmin;
+    height: 4em;
+}
+
+
+
+.section-6 .row .card .trainer-profile img{
+    border-radius: 600px;
+    height: 20%;
+    width: 20%; 
+   
+}
+
+.section-6 .row .card .trainer-profile span{
+    padding-left: 2vmin;
+    font-weight: bold;
+    color: rgb(63, 62, 62);
+}
+
+.section-6 .row .card .trainer-rank{
+    position: relative;
+    top: 1vmin;
+    right: 2vmin;
+    color: rgb(83, 83, 83);
+}
+
+
+.section-7 .card-text{
+    
+    font-weight: 100;
+}
+
+.section-7{
+    margin: 6em 0;
+    
+}
+
+
+footer
+{
+    overflow: hidden;
+}
+
+footer .section1{
+    background-color: rgb(247, 246, 246);
+}
+
+footer .section1 .address{
+    margin: 8vmin;
+    
+}
+
+footer .section1 .address .form-control{
+    border: none;
+    background-color: transparent;
+    font-size: 2vmin;
+}
+
+.section1 .links{
+    margin: 8vmin 0;
+}
+
+.section1 .links li{
+    padding: 6px;
+    
+}
+
+.section1 .links span{
+    color: rgb(94, 179, 94);
+}
+
+.section1 .links a{
+    text-decoration: none;
+    color: rgb(34, 31, 31);
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.section1 .links a:hover{
+    color: rgb(85, 161, 85);
+}
+
+.section1 .subscribe{
+    margin: 8vmin 15vmin;
+}
+
+.section1 .subscribe p{
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+.section1 .subscribe .form-control{
+    border-radius: 30px;
+    height: 50px;
+}
+
+.section1 .subscribe .form-label{
+    border-radius: 30px;
+    background-color: rgb(13, 163, 13);
+    padding: 12px 20px;
+    margin-left: -40px;
+}
+
+footer .section2{
+    background-color: rgb(190, 189, 189);
+}
+
+footer .section2 .copywrite {
+    margin: 2em 5em;
+
+}
+
+footer .section2 .copywrite span{
+    color: rgb(24, 155, 24);
+}
+
+footer .section2 .column{
+    position: relative;
+    top:2em;
+    right: -10em;
+}
+
+footer .section2 .column i{
+    border-radius: 100%;
+    background-color: rgb(6, 179, 6);
+    height: 2em;
+    width: 2em;
+    padding: 1vmin 1.5vmin;
+}
+
+
